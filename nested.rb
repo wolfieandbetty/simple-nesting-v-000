@@ -40,7 +40,7 @@ programmer_hash [:alan_kay][:known_for] #returns the value of what alan_kay is k
 end
 
 def dennis_ritchies_language
-	programmer_hash =
+	programmer_hash = #returns the value of Dennis's language as a string
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -63,7 +63,7 @@ def adding_matz
 # :yukihiro_matsumoto => {
 #   :known_for => "Ruby",
 #    :languages => ["LISP", "C"]
-# }
+# }     And return the value of the updated hash
 
 	programmer_hash =
  		{
